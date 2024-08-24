@@ -1,0 +1,83 @@
+:root{
+    --bg-body:hsla(24, 64%, 53%, 0.4);
+    --back-ground1:#fbf3d5;
+    --text-color:rgba(205, 87, 8, 0.7);
+}
+
+.request{
+    background-color: var(--bg-body);
+}
+.bgCard{
+    background-color: var(--back-ground1) !important;
+}
+.bgCard2{
+    background-color: var(--bg-body) !important;
+}
+.changeAvatar{
+    background-color: var(--bg-body) !important;
+    padding: 10px !important;
+    width: 100%;
+    border-radius: 10px !important;
+}
+.bgBtnReq{
+    background-color: var(--text-color);
+}
+.search{
+    width: 400px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 8px;
+    color: #fff;
+}
+.search::placeholder{
+    color: var(--text-color);
+}
+.textColor{
+    color: var(--text-color);
+}
+.textColor2{
+    color: rgba(242, 104, 12, 0.9);
+}
+.textSpacing{
+    letter-spacing: 10px;
+}
+.textShadow{
+    text-shadow: 1px 5px 3px var(--text-color);
+}
+.cursor{
+    cursor: pointer !important;
+}
+.bgDownload{
+    background-color:rgba(205, 87, 8, 0.1) ;
+}
+.cursor{
+    cursor: pointer;
+}
+.bgRefusedRequest{
+    background-color: hsla(360, 69%, 43%, 0.38);
+    border: 2px solid hsla(360, 79%, 43%, 0.47);
+}
+.bgAcceptedRequest{
+    background-color: hsla(111, 79%, 31%, 0.47);
+    border: 2px solid hsla(111, 79%, 31%, 0.55);
+}
+.bgWatingRequest{
+    background-color: hsla(62, 55%, 49%, 0.47);
+    border: 2px solid hsla(56, 68%, 46%, 0.55);
+}
+.bgInterviewingRequest{
+    background-color: hsla(321, 65%, 52%, 0.47);
+    border: 2px solid hsla(315, 51%, 48%, 0.55);
+}
+.cancel{
+    background-color: rgba(231, 41, 41,.7);
+    border: 0;
+    outline:0;
+    padding: 10px 15px;
+    transition: all .5s;
+}
+.cancel:hover{
+    background-color: rgba(231, 41, 41,1);
+    letter-spacing: 1px;
+}

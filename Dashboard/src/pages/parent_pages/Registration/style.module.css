@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Autour+One&family=Coiny&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Rubik+Gemstones&display=swap');
+:root{
+    --bg-form:#fff;
+    --outline-color:rgba(253, 175, 123,.5);
+    --bg-btn:#fdaf7b;
+    --bg-label:rgb(251, 243, 213);
+    --text-color3:#401F71;
+    --spical-color-text:#824D74;
+}
+
+.registeration{
+    background-color:rgba(255, 209, 173,.3);
+    background-size: cover;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    padding: 10px ;
+    background-color: rgb(251, 243, 213);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;  
+    border: none;
+    border-radius: 5px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    
+}
+.input::placeholder{
+    color: #000;
+}
+.input:focus{
+    outline: 0;
+}
+.btnRegister{
+    background-color:var(--bg-btn) !important ;
+    margin-top: 10px;
+    padding: 8px 30px !important;
+    transition: all 1s !important;
+}
+.btnRegister:hover{
+    background-color: transparent !important;
+    border: 1px solid var(--bg-btn) !important;
+    letter-spacing: 5px;
+}
+.textColor,.heading{
+    color: var(--text-color3);
+    font-family: "Livvic", sans-serif;
+    font-weight: 500;
+}
+.heading{
+    font-family: "Rubik Gemstones", system-ui;
+}
+.spiecialText{
+    color: var(--spical-color-text);
+    letter-spacing: 4px;
+    font-family: "Autour One", system-ui;
+}
+.cursor{
+    cursor: pointer;
+}
+.upload{
+    background-color: var(--bg-label);
+    width: 250px;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+
+.textColor2{
+    color: var(--spical-color-text);
+    transition: all .5s;
+}
+.textColor2:hover{
+    color: var(--text-color3);
+    letter-spacing: 1px;
+}
+.BgGreenRegestration{
+    background-color: #FFF5E0;
+    width: 400px;
+}
